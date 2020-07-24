@@ -1,0 +1,82 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2234343886" file="D:\Ben\Physical-Model\Physical-Model-9thmarch2020\Physical-Model\interactive v0.6\Interactive Unphysical.prj" location="D:\Ben\Physical-Model\Physical-Model-9thmarch2020\Physical-Model\interactive v0.6" name="Interactive Unphysical" target="target.mlapps" target-name="Package App">
+    <param.appname>Interactive Unphysical</param.appname>
+    <param.authnamewatermark>Benjamin Duncan</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.5</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>D:\Ben\Physical-Model\Physical-Model-9thmarch2020\Physical-Model\interactive v0.6</param.output>
+    <param.guid>5ac401da-9455-4ba2-bf3a-7879cef48276</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\pm_interactive_0_6.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\pm_create_initial_condition_vector.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_create_file_report.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_create_Kmatrix_linear.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_create_Mmatrix_linear.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_csv_vector.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_eigen_initial_conditions.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_format_fft.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_free_damped_vibration.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_modify_k_vector.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_normalise_audio.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_time_variant_pickup.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_triangle_pluck_condition.m</file>
+      <file>${PROJECT_ROOT}\pm_mdof_usecase_history.m</file>
+      <file>${PROJECT_ROOT}\PMUseCase.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\Ben\Physical-Model\Physical-Model-9thmarch2020\Physical-Model" name="interactive v0.6" optional="false">D:\Ben\Physical-Model\Physical-Model-9thmarch2020\Physical-Model\interactive v0.6</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\matlab</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
